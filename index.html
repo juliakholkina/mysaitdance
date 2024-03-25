@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Галерея Кукина
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #666;
+             }
+             #nav {background-color: rgb(195, 9, 242);
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #888;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(144, 7, 137);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-image: url(https://sportishka.com/uploads/posts/2023-06/1687251248_sportishka-com-p-tantsi-v-zale-krasivo-3.jpg); 
+background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(246, 187, 239, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(237, 223, 238);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Студия танца для детей</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">О нас</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Выступления ваших детей!</p>
+             </div>
+            <div id="main">
+                <p>Каждый открытый урок в танцевальной студии - это настоящий праздник: с фотосессией, фуршетом, экскурсией по студии и, конечно, танцами и незабываемыми эмоциями.</p>
+                <p>Выберайте направления для своего ребенка</p>
+                <p>Первые и гарантированные результаты вашего ребенка</p>
+                <p>Танцы - лучшее хобби: меняет жизнь и имеет ещё массу дополнительных бонусов.</p>
+                <p>Наши педагоги настоящие профессионалы</p>
+                <p>Ваш ребенок будет счастлив!</p>
+            </div>
+        </div>
+        <div id="footer">Почта для записи: juliakholkina9@gmail.com</div>
+    </body>
+</html>   
